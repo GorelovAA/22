@@ -7,21 +7,21 @@ namespace ДЗ_2_7
         static void Main(string[] args)
         {
             /// Задаем стартовые переменные
-            string FIO = "Горелов Алексей Анатольевич", Email = "gorelov.alex@gmail.com";
-            byte Age = 35;
-            double Bprog = 5, Bmath = 4, Bphis = 3;
+            string userName = "Горелов Алексей Анатольевич", email = "gorelov.alex@gmail.com";
+            byte age = 35;
+            double bprog = 5, bmath = 4, bphis = 3;
 
             /// Выводим на экран столбиком
-            Console.WriteLine($"Ф.И.О.: {FIO} \nВозраст: {Age} \nEmail: {Email} \nБаллы по программированию: {Bprog} \nБаллы по математике: {Bmath} \nБаллы по физике: {Bphis}");
+            Console.WriteLine($"Ф.И.О.: {userName} \nВозраст: {age} \nEmail: {email} \nБаллы по программированию: {bprog} \nБаллы по математике: {bmath} \nБаллы по физике: {bphis}");
             Console.ReadKey();
 
             /// Считаем сумму баллов
-            double Sum = Bprog + Bmath + Bphis;
-            Console.WriteLine($"\nСумма баллов по всем предметам: {Sum}");
+            double sum = bprog + bmath + bphis;
+            Console.WriteLine($"\nСумма баллов по всем предметам: {sum}");
 
             /// Считаем средний балл
-            double Sr = Sum / 3;
-            Console.WriteLine($"Средний балл: {Sr}");
+            double sr = sum / 3;
+            Console.WriteLine($"Средний балл: {sr}");
             Console.ReadKey();
 
         }
